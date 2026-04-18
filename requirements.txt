@@ -6,3 +6,4 @@ evaluate
 spacy
 seqeval
 'accelerate>=1.1.0'
+plotly
