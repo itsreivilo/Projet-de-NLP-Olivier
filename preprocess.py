@@ -13,7 +13,7 @@ from collections import defaultdict
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-ZIP_PATH = "C:/Users/auran/OneDrive/Documents/ensae/3A/NLP/legislatives.zip"
+ZIP_PATH = "data/legislatives.zip"
 
 data = pd.read_csv("data/metadonnees.csv")
 data["date"] = pd.to_datetime(data["date"])

@@ -1,0 +1,9 @@
+scikit-learn
+pandas
+transformers
+seaborn
+evaluate
+spacy
+seqeval
+plotly
+matplotlib

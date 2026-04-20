@@ -1,3 +1,6 @@
 __pycache__/
-camembert-ner/
-camembert-ner-final/
+camembert/
+camembert-final/
+data/legislatives.zip
+camembert-DISC/
+camembert-final-DISC/
