@@ -215,11 +215,11 @@ def resumer_resultats(resultats):
     rows = []
     for parti, res in resultats.items():
         rows.append({
-            "parti"               : parti,
-            "nb_textes"           : res["nb_textes"],
+            "parti" : parti,
+            "nb_textes" : res["nb_textes"],
             "nb_doublons_exacts"  : res["nb_doublons_exacts"],
             "nb_paires_similaires": res["nb_paires_similaires"],
-            "taux_similarite"     : round(res["nb_paires_similaires"] / (res["nb_textes"]**2-res["nb_textes"]), 2)
+            "taux_similarite" : round(res["nb_paires_similaires"] / (res["nb_textes"]**2-res["nb_textes"]), 2)
         })
     return pd.DataFrame(rows).sort_values("nb_paires_similaires", ascending=False)
 

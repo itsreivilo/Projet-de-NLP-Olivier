@@ -1,6 +1,7 @@
 __pycache__/
-camembert/
-camembert-final/
-data/legislatives.zip
+camembert-CONC/
+camembert-final-CONC/
 camembert-DISC/
 camembert-final-DISC/
+data/legislatives.zip
+outputs/predictions_tot.jsonl
